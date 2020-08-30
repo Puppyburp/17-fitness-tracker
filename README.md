@@ -7,7 +7,7 @@
 Built with Node.js, Express, and Mongodb (and Mongoose).
 
 ## Functionality
-<img src="/public/fitness-demo.png" alt="drawing" width="200"/>
+<img src="/public/fitness-demo.png" alt="drawing" width="400"/>
 
 ## Demo
 View demo app here: 
