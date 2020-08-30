@@ -7,7 +7,7 @@
 Built with Node.js, Express, and Mongodb (and Mongoose).
 
 ## Functionality
-![fitness tracker app](/public/fitness-demo.png)
+![fitness tracker app](/public/fitness-demo.png =100x)
 
 ## Demo
 View demo app here: 
