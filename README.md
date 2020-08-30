@@ -10,4 +10,4 @@ Built with Node.js, Express, and Mongodb (and Mongoose).
 <img src="/public/fitness-demo.png" alt="drawing" width="400"/>
 
 ## Demo
-View demo app here: 
+View demo app here: [fitness-app-demo](https://afternoon-beach-80607.herokuapp.com/)
