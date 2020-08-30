@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #fd5757;
   color: #ffffff;
   height: 80px;
   padding: 10px;
@@ -41,7 +41,7 @@ header {
 }
 
 header h1 {
-  transform: skewX(-2deg);
+  font-size: 2em;
 }
 
 select {
@@ -96,7 +96,7 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
+  background-color: #ffd5d5;
   padding-bottom: 100px;
 }
 
@@ -135,7 +135,7 @@ form::after {
 
 .exercise .ui.card {
   width: 400px;
-  max-width: 600px;
+  /* max-width: 600px; */
 }
 
 .exercise .buttons {
@@ -434,4 +434,38 @@ form > button {
     opacity: 0;
     right: -320px;
   }
+}
+
+.fas.fa-heartbeat {
+  color: #BD4040;
+}
+
+a.dashboard-text {
+  color: #ffd5d5;
+}
+
+a.dashboard-text:hover {
+  color: #fff;
+}
+
+.ui.button {
+  padding: 1.2em 1.5em .78571429em;
+}
+
+/* Grow Shadow */
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 81px 8px -8px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
